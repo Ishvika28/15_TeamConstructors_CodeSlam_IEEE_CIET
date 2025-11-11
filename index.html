@@ -3,54 +3,49 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Sony-style Headphone Landing — Clone</title>
+  <title>Sony | WH-1000XM6 Wireless Headphones</title>
   <link rel="stylesheet" href="index.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="topbar">
-    <div class="logo">W</div>
+    <div class="logo">SONY</div>
     <nav class="nav">
-      <button class="icon-btn" aria-label="search">🔍</button>
-      <button class="icon-btn" aria-label="cart">👜</button>
-      <button class="icon-btn" aria-label="menu">☰</button>
+      <a href="#features">Features</a>
+      <a href="#highlight">Technology</a>
+      <a href="#preorder" class="cta">Pre-Order</a>
     </nav>
   </header>
 
-  <main class="page">
+  <main>
     <!-- HERO -->
     <section class="hero section" id="hero">
-      <div class="hero-left">
-        <div class="badge">NEW SERIES</div>
-        <h1 class="offer">Get <span class="accent">25% off</span><br />to our products</h1>
-        <p class="cta-sub">Pre order the latest MDR headphones</p>
-        <div class="cta-row">
-          <a class="btn primary" href="#preorder">PRE ORDER →</a>
-          <a class="btn ghost" href="#features">DISCOVER</a>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="badge">NEW SERIES</div>
+          <h1>Get <span>25% Off</span><br>on Our Latest Headphones</h1>
+          <p>Pure wireless freedom. Designed for comfort. Tuned for perfection.</p>
+          <div class="hero-btns">
+            <a class="btn primary" href="#preorder">Pre-Order</a>
+            <a class="btn secondary" href="#features">Learn More</a>
+          </div>
         </div>
-      </div>
-
-      <div class="hero-right">
-        <div class="big-shadow"></div>
-        <img class="main-headphone float" src="img1.webp" alt="Headphones">
-        <div class="scroll-hint">↓</div>
+        <div class="hero-img-wrap">
+          <img class="hero-img" src="https://images.unsplash.com/photo-1612539712803-3b83f3edb36c?auto=format&fit=crop&w=1400&q=80" alt="Sony Headphones">
+        </div>
       </div>
     </section>
 
     <!-- HIGHLIGHT -->
     <section class="highlight section" id="highlight">
-      <div class="hex-bg"></div>
-      <div class="content reveal">
-        <div class="left">
-          <img class="big-round" src="img2.webp" alt="Close up headphone">
+      <div class="highlight-inner">
+        <div class="highlight-img">
+          <img src="https://images.unsplash.com/photo-1606813902971-bf05d92d7f32?auto=format&fit=crop&w=1400&q=80" alt="Headphone Detail">
         </div>
-        <div class="right">
-          <h2>Highest<br /><span class="accent">Quality Streaming</span></h2>
-          <p class="muted">Developed by Sony, the Bluetooth LDAC codec takes your music streaming to a new level. Crisp highs, solid bass — engineered to impress.</p>
-          <div class="media-card">
-            <img src="img4.jpeg" alt="man listening" />
-            <button class="play">▶</button>
-          </div>
+        <div class="highlight-text">
+          <div class="badge">NEW SERIES</div>
+          <h2>Highest Quality Streaming</h2>
+          <p>Developed with Sony’s LDAC™ Bluetooth codec, experience sound closer to studio quality — bringing your favorite music to life.</p>
         </div>
       </div>
     </section>
@@ -58,90 +53,64 @@
     <!-- FEATURES -->
     <section class="features section" id="features">
       <div class="container">
-        <h3 class="center reveal">Bluetooth 4.0 Connectivity</h3>
-        <p class="muted center reveal">Provides wireless music listening and phone calls with reliable range.</p>
-
-        <div class="feature-cards">
-          <div class="card reveal">
-            <div class="icon">🔊</div>
-            <h4>Perfect Sound</h4>
-            <p class="muted">High resolution drivers for crisp detail.</p>
+        <h2>Bluetooth 5.0 Connectivity</h2>
+        <p class="muted center">Provides seamless wireless music listening and clear voice calls wherever you go.</p>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>Wireless Freedom</h3>
+            <p>Move without limits. Listen without interruptions.</p>
           </div>
-
-          <div class="card reveal">
-            <div class="icon">🔋</div>
-            <h4>Long Battery</h4>
-            <p class="muted">Up to 30 hours of playback on a single charge.</p>
+          <div class="feature-card">
+            <h3>Crystal Clear Sound</h3>
+            <p>Precision-engineered drivers reproduce every tone in detail.</p>
           </div>
-
-          <div class="card reveal">
-            <div class="icon">🧠</div>
-            <h4>Smart Noise</h4>
-            <p class="muted">Adaptive noise cancellation for focus or relaxation.</p>
+          <div class="feature-card">
+            <h3>All-Day Battery</h3>
+            <p>Up to 30 hours of wireless playback on a single charge.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- INTRO / VIDEO CTA -->
+    <!-- INTRO -->
     <section class="intro section" id="intro">
-      <div class="intro-bg"></div>
-      <div class="intro-inner reveal">
-        <h2 class="white">INTRODUCING PERFECT SOUND</h2>
-        <p class="muted white">Find a local store or stream a preview demo.</p>
-        <button class="circle-play">▶</button>
+      <div class="intro-overlay"></div>
+      <div class="intro-content">
+        <h2>Introducing Perfect Sound</h2>
+        <p>Find a local store and experience the difference.</p>
+        <a class="circle-btn" href="#preorder">▶</a>
       </div>
     </section>
 
     <!-- PRODUCT / PREORDER -->
     <section class="product section" id="preorder">
-      <div class="product-inner container">
-        <div class="product-left reveal">
-          <h3>Sony MDR-1ABT</h3>
-          <p class="muted">Wireless High-Resolution Over-Ear Headphones with Bluetooth</p>
-
-          <div class="swatch-row">
-            <div class="swatch active" style="background:#b99b8f"></div>
-            <div class="swatch" style="background:#cbd1cf"></div>
-            <div class="swatch" style="background:#8ea6a1"></div>
-          </div>
-
-          <div class="cta-row">
-            <a class="btn primary" href="#buy">PRE ORDER →</a>
-            <a class="btn" href="#more">MORE DETAILS</a>
-          </div>
+      <div class="product-inner">
+        <div class="product-text">
+          <h2>Sony WH-1000XM6</h2>
+          <p>Wireless High-Resolution Over-Ear Headphones with Bluetooth.  
+             Engineered for comfort, crafted for clarity, built for silence.</p>
+          <a class="btn primary" href="#">Pre-Order Now</a>
         </div>
-
-        <div class="product-right reveal">
-          <div class="product-stage">
-            <img class="product-img float-slow" src="https://images.unsplash.com/photo-1519638399535-1b036603ac77?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=8a4d6e637a6a5b5d6f4a1c6b2a9b1c8d" alt="product on stage" />
-            <div class="ring"></div>
-          </div>
+        <div class="product-img">
+          <img src="https://images.unsplash.com/photo-1580910051072-9b07f0aee3a4?auto=format&fit=crop&w=1200&q=80" alt="Sony Product">
         </div>
       </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="container footer-grid">
-        <div>
-          <div class="logo footer-logo">W</div>
-          <p class="muted">© 2025 W Audio. All rights reserved.</p>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h3>SONY</h3>
+          <p>© 2025 Sony Audio. All rights reserved.</p>
         </div>
-        <div class="links">
-          <a class="muted link">Newsletter</a>
-          <a class="muted link">Careers</a>
-          <a class="muted link">Local stores</a>
-        </div>
-        <div>
-          <form id="newsletter" class="newsletter-form" onsubmit="return false">
-            <input class="input" type="email" placeholder="Email address" required />
-            <button class="btn primary small">Subscribe</button>
-          </form>
+        <div class="footer-links">
+          <a href="#">Newsletter</a>
+          <a href="#">Careers</a>
+          <a href="#">Local Stores</a>
         </div>
       </div>
     </footer>
-
   </main>
 
   <script src="index.js"></script>
