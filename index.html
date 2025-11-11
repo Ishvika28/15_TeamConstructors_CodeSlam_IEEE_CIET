@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sony-style Headphone Landing — Clone</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">W</div>
+    <nav class="nav">
+      <button class="icon-btn" aria-label="search">🔍</button>
+      <button class="icon-btn" aria-label="cart">👜</button>
+      <button class="icon-btn" aria-label="menu">☰</button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <!-- HERO -->
+    <section class="hero section" id="hero">
+      <div class="hero-left">
+        <div class="badge">NEW SERIES</div>
+        <h1 class="offer">Get <span class="accent">25% off</span><br />to our products</h1>
+        <p class="cta-sub">Pre order the latest MDR headphones</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#preorder">PRE ORDER →</a>
+          <a class="btn ghost" href="#features">DISCOVER</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="big-shadow"></div>
+        <img class="main-headphone float" src="img1.webp" alt="Headphones">
+        <div class="scroll-hint">↓</div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHT -->
+    <section class="highlight section" id="highlight">
+      <div class="hex-bg"></div>
+      <div class="content reveal">
+        <div class="left">
+          <img class="big-round" src="img2.webp" alt="Close up headphone">
+        </div>
+        <div class="right">
+          <h2>Highest<br /><span class="accent">Quality Streaming</span></h2>
+          <p class="muted">Developed by Sony, the Bluetooth LDAC codec takes your music streaming to a new level. Crisp highs, solid bass — engineered to impress.</p>
+          <div class="media-card">
+            <img src="img4.jpeg" alt="man listening" />
+            <button class="play">▶</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features section" id="features">
+      <div class="container">
+        <h3 class="center reveal">Bluetooth 4.0 Connectivity</h3>
+        <p class="muted center reveal">Provides wireless music listening and phone calls with reliable range.</p>
+
+        <div class="feature-cards">
+          <div class="card reveal">
+            <div class="icon">🔊</div>
+            <h4>Perfect Sound</h4>
+            <p class="muted">High resolution drivers for crisp detail.</p>
+          </div>
+
+          <div class="card reveal">
+            <div class="icon">🔋</div>
+            <h4>Long Battery</h4>
+            <p class="muted">Up to 30 hours of playback on a single charge.</p>
+          </div>
+
+          <div class="card reveal">
+            <div class="icon">🧠</div>
+            <h4>Smart Noise</h4>
+            <p class="muted">Adaptive noise cancellation for focus or relaxation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO / VIDEO CTA -->
+    <section class="intro section" id="intro">
+      <div class="intro-bg"></div>
+      <div class="intro-inner reveal">
+        <h2 class="white">INTRODUCING PERFECT SOUND</h2>
+        <p class="muted white">Find a local store or stream a preview demo.</p>
+        <button class="circle-play">▶</button>
+      </div>
+    </section>
+
+    <!-- PRODUCT / PREORDER -->
+    <section class="product section" id="preorder">
+      <div class="product-inner container">
+        <div class="product-left reveal">
+          <h3>Sony MDR-1ABT</h3>
+          <p class="muted">Wireless High-Resolution Over-Ear Headphones with Bluetooth</p>
+
+          <div class="swatch-row">
+            <div class="swatch active" style="background:#b99b8f"></div>
+            <div class="swatch" style="background:#cbd1cf"></div>
+            <div class="swatch" style="background:#8ea6a1"></div>
+          </div>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#buy">PRE ORDER →</a>
+            <a class="btn" href="#more">MORE DETAILS</a>
+          </div>
+        </div>
+
+        <div class="product-right reveal">
+          <div class="product-stage">
+            <img class="product-img float-slow" src="https://images.unsplash.com/photo-1519638399535-1b036603ac77?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=8a4d6e637a6a5b5d6f4a1c6b2a9b1c8d" alt="product on stage" />
+            <div class="ring"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo footer-logo">W</div>
+          <p class="muted">© 2025 W Audio. All rights reserved.</p>
+        </div>
+        <div class="links">
+          <a class="muted link">Newsletter</a>
+          <a class="muted link">Careers</a>
+          <a class="muted link">Local stores</a>
+        </div>
+        <div>
+          <form id="newsletter" class="newsletter-form" onsubmit="return false">
+            <input class="input" type="email" placeholder="Email address" required />
+            <button class="btn primary small">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
